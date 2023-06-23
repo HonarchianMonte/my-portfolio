@@ -8,7 +8,6 @@ function Contact() {
   const [message, setMessage] = React.useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
-  const [isError, setIsError] = useState(false);
 
 
   const form = useRef();
@@ -36,14 +35,7 @@ function Contact() {
       })
       .catch(() => {
         setIsLoading(false);
-        // Handle error if needed
       });
-  };
-
-  const resetForm = () => {
-    setName("");
-    setEmail("");
-    setMessage("");
   };
 
   return (
@@ -151,15 +143,10 @@ function Contact() {
               </div>
             )}
             {isSuccess && (
-              <div className="fixed top-20 left-0 right-0 flex justify-center bg-green-500 px-4 py-2 text-white rounded shadow rounded text-lg">
+              <div className="fixed top-20 left-0 right-0 flex justify-center bg-green-500 px-4 py-2 text-white  shadow rounded text-lg">
                 <div className="transition-opacity opacity-100 duration-2000">
                   Sent!
                 </div>
-              </div>
-            )}
-            {isError && (
-              <div className="fixed top-20 left-0 right-0 flex items-center justify-center bg-red-500 px-4 py-2 text-white rounded shadow">
-                Error Sending Message!
               </div>
             )}
             <button
