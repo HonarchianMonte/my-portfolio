@@ -9,11 +9,9 @@ import Social from "./components/Social";
 
 export default function App() {
   return (
-    <div className="text-gray-400 bg-gray-900 body-font">
-
-      
+    <div className= "text-gray-400 bg-gray-900">
       <Navbar/>
-      <div>
+      <div className="bg-gray-900">
         <Social/>
         <About />
         <Education/>

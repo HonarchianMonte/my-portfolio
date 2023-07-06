@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-gray-800 md:sticky top-0 z-20">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a href="#about" className="font-medium text-white md:mb-0 ml-3 text-xl hover:text-gray-400">
             Monte Honarchian

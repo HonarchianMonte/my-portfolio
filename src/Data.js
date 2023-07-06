@@ -13,7 +13,7 @@ export const projects = [
   {
     title: "React-Demo-App",
     subtitle: "React",
-    stack: "Javascript, SCSS, React, Redux, Thunk, Jest, Reqres",
+    stack: "Javascript, SCSS, React, Redux, Thunk, Jest",
     image: require("./Assets/project-2.gif"),
     link: "https://sparkling-bonbon-256338.netlify.app/",
   },
@@ -34,9 +34,9 @@ export const languages = [
   "CSS",
 ];
 
-export const libraries = ["Tailwind.CSS", "Bootstrap", "SCSS", "Material UI"];
+export const libraries = ["Tailwind.CSS", "Bootstrap", "SCSS", "Material UI","Responsiveness"];
 
-export const misc = ["MySQL", "Jest", "RESTful API", "Git", "Netlify"];
+export const misc = ["MySQL", "Jest", "RESTful API", "Git", "Netlify" ];
 
 export const social = [
   {
@@ -46,7 +46,7 @@ export const social = [
         target="_blank"
         rel="noreferrer"
         title="Github"
-        className="m-4 text-green-400"
+        className="min-[320px]:m-1 lg:m-4  text-green-400"
       >
         <GitHubIcon sx={{ fontSize: 35 }} />
       </a>
@@ -59,7 +59,7 @@ export const social = [
         target="_blank"
         rel="noreferrer"
         title="Linkedin"
-        className="m-4 text-green-400"
+        className="min-[320px]:m-1 lg:m-4 text-green-400"
       >
         <LinkedInIcon sx={{ fontSize: 35 }} />
       </a>
