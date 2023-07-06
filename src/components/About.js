@@ -9,7 +9,7 @@ function About() {
           Hi, my name is,
           </h2>
           <h1 className="lg:text-5xl md:text-3xl xs:text-3xl font-medium text-white mb-1">
-            Monte Honarchian | Software Developer
+            Monte P. Honarchian | Software Developer
           </h1>
           <h1 className="lg:text-5xl md:text-3xl xs:text-3xl font-medium text-green-400 mb-2 ">
             Crafting excellence, line by line.
